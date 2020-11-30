@@ -46,3 +46,7 @@ alter user xxxx set password 'yyyyy' change not required
 * 关闭数据库
 * 将 dbms.security.auth\_enabled=true 配置恢复，重启数据库即可以正常登陆了。
 
+> 参考文档，链接
+>
+> [Neo4j管理文档](https://neo4j.com/docs/cypher-manual/4.2/administration/security/users-and-roles/#administration-security-users-show-current)
+
